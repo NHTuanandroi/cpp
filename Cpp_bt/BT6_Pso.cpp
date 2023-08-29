@@ -7,6 +7,7 @@ int UCLN(int a,int b){
     else
         return UCLN(b,a%b);
 }
+//____________________INIT CLASS_____________________
 class PhanSo{
     private:
         int tu,mau;
@@ -23,6 +24,7 @@ class PhanSo{
         PhanSo nhan(PhanSo);
         PhanSo chia(PhanSo);
 };
+//________________-DEFINE METHOD IN CLASS-___________________
 void PhanSo::ganPS(int t,int m){
     tu = t;
     mau = m;

@@ -20,10 +20,10 @@ class Animal
             
         }
         //--------------GETTER------------
-        string Get_name(){return this->name;}
-        int Get_age(){return this->age;}
-        double Get_weight(){return this->weight;}
-        double Get_hight(){return this->hight;}
+        string Get_name(){return this->name;} // get name
+        int Get_age(){return this->age;} // get age
+        double Get_weight(){return this->weight;} // get weight
+        double Get_hight(){return this->hight;} // get hight
         //------------INIT METHOD-----------
         double Calc_BMI();
         void Compare_Age( Animal Other_Animal);

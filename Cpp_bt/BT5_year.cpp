@@ -1,5 +1,6 @@
 #include<iostream>
 
+// write class get information of people
 using namespace std;
 
 class Person

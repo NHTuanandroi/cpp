@@ -21,7 +21,7 @@ int max2(int a[], int n)
             max = a[i];
         }
     }
-    int max2 = INT_MIN;
+    int max2 = INT_MIN ;
     for (int i = 0; i < n; i++){
         if (max2 < a[i] && a[i] != max){
             max2 = a[i];
@@ -30,6 +30,42 @@ int max2(int a[], int n)
     
     return max2;
 }
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int my_arr[]  = {1,2,5,4,3};
+    int max =my_arr[0];
+    int max2 = my_arr[1];
+    if(max2>max)
+    {
+        int temp = max2;
+        max2 = max;
+        max = temp;
+    }
+    for(int i = 2; i< 5; i++)
+    {
+        if(my_arr[i] > max) 
+        {
+            int temp = max;
+            max = my_arr[i];
+            max2 = temp;
+        }
+        else if (my_arr[i]> max2)
+        {
+            max2 = my_arr[i];
+        }
+    }
+    
+    cout << max2;
+
+    return 0;
+}
+*/
 int main()
 {
 	int *a = new int[10];
